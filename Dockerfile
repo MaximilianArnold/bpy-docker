@@ -41,9 +41,10 @@ RUN python -m pip install -U pip setuptools wheel
 RUN /opt/pyenv/versions/3.7.8/bin/python -m pip install bpy-2.91a0-cp37-cp37m-manylinux2014_x86_64.whl
 RUN /opt/pyenv/versions/3.7.8/bin/bpy_post_install
 
-# Pull requirements
-# RUN wget requireents.txt
+# Get requirements for other packages
+RUN wget https://raw.githubusercontent.com/MaximilianArnold/bpy-docker/main/requirements.txt
 
 # Install requrirements
-#RUN  pip install -r requirements.txt
+RUN  pip install -r requirements.txt
+
 
