@@ -1,5 +1,5 @@
 # bpy-docker
-This is a github repository to install on Cuda docker BPY
+This is a github repository to install with a Cuda docker the blender wheel package
 
 # How to build
 docker build -t bpy-docker .
