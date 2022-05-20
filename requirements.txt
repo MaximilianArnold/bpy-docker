@@ -1,8 +1,6 @@
 
 ###### Requirements without Version Specifiers ######
 opencv-python
-numpy
-pickle
 h5py
 scipy
 mathutils
