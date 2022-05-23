@@ -36,7 +36,7 @@ RUN pyenv global 3.7.8
 RUN /opt/pyenv/versions/3.7.8/bin/python -m pip install --upgrade pip  wheel future-fstrings
 
 # Install BPY
-ADD https://github.com/TylerGubala/blenderpy/releases/download/v2.91a0/bpy-2.91a0-cp37-cp37m-manylinux2014_x86_64.wh$
+ADD https://github.com/TylerGubala/blenderpy/releases/download/v2.91a0/bpy-2.91a0-cp37-cp37m-manylinux2014_x86_64.whl bpy-2.91a0-cp37-cp37m-manylinux2014_x86_64.whl
 RUN python -m pip install -U pip setuptools wheel
 RUN /opt/pyenv/versions/3.7.8/bin/python -m pip install bpy-2.91a0-cp37-cp37m-manylinux2014_x86_64.whl
 RUN /opt/pyenv/versions/3.7.8/bin/bpy_post_install
