@@ -46,5 +46,6 @@ RUN wget https://raw.githubusercontent.com/MaximilianArnold/bpy-docker/main/requ
 
 # Install requrirements
 RUN  pip install -r requirements.txt
+RUN  pip install cupy-cuda112
 
 
