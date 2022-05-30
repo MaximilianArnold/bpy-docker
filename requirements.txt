@@ -6,7 +6,8 @@ scipy
 mathutils
 matplotlib
 tqdm
-cupy
+cupy-cuda114
+cupy-cuda102
 #beautifulsoup4
 
 ###### Requirements with Version Specifiers ######
