@@ -9,7 +9,7 @@ ENV LANG="C.UTF-8" \
     PYENV_SHELL="bash"
 
 # Do Update
-RUN apt update && apt-get install -y zip htop screen libgl1-mesa-glx locales ca-certificates libxrender-dev
+RUN apt update && apt-get install -y zip htop screen libgl1-mesa-glx locales ca-certificates libxrender-dev  libffi-dev
 RUN apt-get install -y git curl
 RUN apt-get install -y wget nano
 RUN apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget cur$
